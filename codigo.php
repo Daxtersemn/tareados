@@ -13,11 +13,15 @@ class Operaciones extends convertir {
 }
 
 class tarea {
-public $hola = 'hola muy buenas esta es la clase de informatica soy alejandro rodrigues 30478440 t2-inf*1';
+public $hola = 'hola muy buenas esta es la clase de informatica ';
 function buenas() {
     return $this->hola;
 }
 }
-
+class saludo extends tarea {
+    public function buenas2(){
+        echo 'soy alejandro rodrigues 30478440 t2-inf*1';
+    }
+}
 
 ?>
